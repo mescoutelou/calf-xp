@@ -1,0 +1,17 @@
+.tmp/
+*elf/
+*hex/
+*log/
+*lst/
+*obj/
+*vcd/
+*xpr/
+*trace/
+xp/*/verilator/
+xp/*/dump/
+xp/*/example.txt
+.Xil/
+*.jou
+vivado*.log
+__pycache__/
+.DS_Store

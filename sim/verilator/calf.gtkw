@@ -1,0 +1,102 @@
+[*]
+[*] GTKWave Analyzer v4.0.0-prealpha (7d7b4db) (w)1999-2022 BSI
+[*] Mon Nov  9 14:07:21 2026
+[*]
+[dumpfile] "/home/escou64/Projects/herd-ware/calf/xp/0_0_sim/vcd/0_0_sim.vcd"
+[dumpfile_mtime] "Mon Nov  9 14:05:42 2026"
+[dumpfile_size] 5356672
+[savefile] "/home/escou64/Projects/herd-ware/calf/sim/verilator/calf.gtkw"
+[timestart] 0
+[size] 2160 938
+[pos] -1 -1
+*-7.819417 360 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] TOP.calf_sim.sys_m.core_m.
+[treeopen] TOP.calf_sim.sys_m.core_m.exec_m.
+[sst_width] 278
+[signals_width] 380
+[sst_expanded] 1
+[sst_vpaned_height] 336
+@28
++{clock     } TOP.calf_sim.sys_m.clk_i
+@22
++{pc        } TOP.calf_sim.sys_m.core_m.exec_m.pc_r[31:0]
++{cycle     } TOP.calf_sim.sys_m.core_m.exec_m.csr_m.cycle_r[63:0]
++{instret   } TOP.calf_sim.sys_m.core_m.exec_m.csr_m.instret_r[63:0]
+@24
++{fsm       } TOP.calf_sim.sys_m.core_m.exec_m.fsm_m.fsm_r[3:0]
+@c00200
+-gpr
+@22
++{x0  / zero} TOP.calf_sim.x0_zero[31:0]
++{x1  / ra  } TOP.calf_sim.x1_ra[31:0]
++{x2  / sp  } TOP.calf_sim.x2_sp[31:0]
++{x3  / gp  } TOP.calf_sim.x3_gp[31:0]
++{x4  / tp  } TOP.calf_sim.x4_tp[31:0]
++{x5  / t0  } TOP.calf_sim.x5_t0[31:0]
++{x6  / t1  } TOP.calf_sim.x6_t1[31:0]
++{x7  / t2  } TOP.calf_sim.x7_t2[31:0]
++{x8  / s0  } TOP.calf_sim.x8_s0[31:0]
++{x9  / s1  } TOP.calf_sim.x9_s1[31:0]
++{x10 / a0  } TOP.calf_sim.x10_a0[31:0]
++{x11 / a1  } TOP.calf_sim.x11_a1[31:0]
++{x12 / a2  } TOP.calf_sim.x12_a2[31:0]
++{x13 / a3  } TOP.calf_sim.x13_a3[31:0]
++{x14 / a4  } TOP.calf_sim.x14_a4[31:0]
++{x15 / a5  } TOP.calf_sim.x15_a5[31:0]
++{x16 / a6  } TOP.calf_sim.x16_a6[31:0]
++{x17 / a7  } TOP.calf_sim.x17_a7[31:0]
++{x18 / s2  } TOP.calf_sim.x18_s2[31:0]
++{x19 / s3  } TOP.calf_sim.x19_s3[31:0]
++{x20 / s4  } TOP.calf_sim.x20_s4[31:0]
++{x21 / s5  } TOP.calf_sim.x21_s5[31:0]
++{x22 / s6  } TOP.calf_sim.x22_s6[31:0]
++{x23 / s7  } TOP.calf_sim.x23_s7[31:0]
++{x24 / s8  } TOP.calf_sim.x24_s8[31:0]
++{x25 / s9  } TOP.calf_sim.x25_s9[31:0]
++{x26 / s10 } TOP.calf_sim.x26_s10[31:0]
++{x27 / s11 } TOP.calf_sim.x27_s11[31:0]
++{x28 / t3  } TOP.calf_sim.x28_t3[31:0]
++{x29 / t4  } TOP.calf_sim.x29_t4[31:0]
++{x30 / t5  } TOP.calf_sim.x30_t5[31:0]
++{x31 / t6  } TOP.calf_sim.x31_t6[31:0]
+@1401200
+-gpr
+@c00200
+-io
+@22
++{gpio_eno  } TOP.calf_sim.sys_m.gpio_a_m.eno_o[7:0]
++{gpio_out  } TOP.calf_sim.sys_m.gpio_a_m.out_o[7:0]
++{gpio_in   } TOP.calf_sim.sys_m.gpio_a_m.in_i[7:0]
+@28
++{uart_rx   } TOP.calf_sim.sys_m.uart_0_m.rx_i
++{uart_tx   } TOP.calf_sim.sys_m.uart_0_m.tx_o
+@1401200
+-io
+[pattern_trace] 1
+[pattern_trace] 0
